@@ -1,0 +1,15 @@
+{
+  "name": "persevere-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:api": "npm --workspace apps/api run dev",
+    "dev:ide": "npm --workspace ide run watch",
+    "build": "npm -ws run build",
+    "lint": "npm -ws run lint",
+    "setup:ide": "node scripts/setup-ide.js"
+  }
+}
