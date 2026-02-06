@@ -36,7 +36,9 @@ sudo apt-get install -y \
 sudo apt-get update
 sudo apt-get install -y libkrb5-dev libsecret-1-dev libxkbfile-dev
 ```
-
+ Draggable Tavus avatar widget
+- [ ] Chat panel
+- [ ] Execution su
 ### Step 2: Ensure Node.js 22.x is Active
 
 **In your terminal, run**:
